@@ -1,0 +1,70 @@
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+body {
+	overflow-x: hidden;
+}
+.ui, .no_query{
+	display:none;
+}
+.heading{
+	padding: .3em;
+}
+.heading h5{
+	line-height: 0.3em;
+}
+.buscar{
+	color:white;
+}
+/* -----------------------------------------
+   Resultados
+----------------------------------------- */
+.listed{
+	/*height: 200px;*/
+	overflow: hidden;
+	cursor: pointer;
+}
+.ender{
+	/*height: 200px;*/
+	cursor: pointer;
+	background-color: #F5A503 !important;
+}
+.list_details{
+	text-align: left;
+}
+.scrolling{
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+
+/* -----------------------------------------
+   Detalle
+----------------------------------------- */
+.datos{
+	text-align: left;
+}
+.desc{
+	height: auto !important;
+}
+.desc *{
+	max-width: 700px;
+}
+.anterior, .siguiente {
+	cursor: pointer;
+}
+#detalle{
+	display: none;
+}
+
